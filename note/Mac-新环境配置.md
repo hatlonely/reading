@@ -14,7 +14,7 @@
 ### git
 
 ``` sh
-ssh-keygen  # 生成 sshkey
+ssh-keygen
 git config -g user.name "hatlonely"
 git config -g user.email "hatlonely@gmail.com"
 ```
@@ -24,6 +24,7 @@ git config -g user.email "hatlonely@gmail.com"
 下载地址: <https://iterm2.com/downloads/stable/latest>
 
 **选中即复制**: 【iTerm2】 → 【Preference】 → 【General】 → 【Selection】 → 【Copy to pasteboard on selection】
+
 **右键粘贴**: 【iTerm2】 → 【Preference】 → 【Pointer】 → 【Bindings】 → 【Right button single click】 → 【Paste from clipboard】
 
 **szrz 支持**:
@@ -75,6 +76,7 @@ brew install wget
 
 ## google fonts(需要过墙)
 
+下载地址: https://fonts.google.com/download?family=Roboto%20Mono|Inconsolata|Source%20Code%20Pro|Nanum%20Gothic%20Coding|PT%20Mono|Ubuntu%20Mono|Cousine|Fira%20Mono|Anonymous%20Pro|Oxygen%20Mono|Nova%20Mono|Fira%20Code
 
 
 ## 链接
