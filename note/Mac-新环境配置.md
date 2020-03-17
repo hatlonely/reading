@@ -34,17 +34,18 @@ git config -g user.email "hatlonely@gmail.com"
 3. 移动脚本到 PATH 目录: `cd iterm2-zmodem && cp iterm2-send-zmodem.sh /usr/local/bin && cp iterm2-recv-zmodem.sh /usr/local/bin`
 4. 【iTerm2】 → 【Preference】 → 【Profiles】 → 【Advanced】→ 【Triggers】 → 【Edit】 → 【+】
 
-```
-Regular expression: \*\*B0100
-Action: Run Silent Coprocess
-Parameters: /usr/local/bin/iterm2-send-zmodem.sh
-
-Regular expression: \*\*B00000000000000
-Action: Run Silent Coprocess
-Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
-```
+| Regular expression    | Action               | Parameters                           |
+| --------------------- | -------------------- | ------------------------------------ |
+| `\*\*B0100`           | Run Silent Coprocess | /usr/local/bin/iterm2-send-zmodem.sh |
+| `\*\*B00000000000000` | Run Silent Coprocess | /usr/local/bin/iterm2-recv-zmodem.sh |
 
 ### vscode
+
+下载地址: <https://code.visualstudio.com/>
+
+**插件**
+
+- Markdown all in one: markdown 支持，`alt` + `shift` + `F` 格式化表格
 
 ### sublime text
 
@@ -66,6 +67,7 @@ brew install wget
 
 ### goland
 
+下载地址: <https://www.jetbrains.com/go/>
 
 ## 常用软件
 
@@ -86,3 +88,5 @@ brew install wget
 - sublime text 官网: <http://www.sublimetext.com/3>
 - ZModem integration for iTerm 2: <https://github.com/xer0x/iterm2-zmodem>
 - google fonts: <https://fonts.google.com/>
+- vscode 官网: <https://code.visualstudio.com/>
+- goland 官网: <https://www.jetbrains.com/go/>
