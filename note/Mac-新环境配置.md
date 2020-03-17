@@ -23,11 +23,11 @@ git config -g user.email "hatlonely@gmail.com"
 
 下载地址: <https://iterm2.com/downloads/stable/latest>
 
-**选中即复制**: 【iTerm2】 → 【Preference】 → 【General】 → 【Selection】 → 【Copy to pasteboard on selection】
+选中即复制: 【iTerm2】 → 【Preference】 → 【General】 → 【Selection】 → 【Copy to pasteboard on selection】
 
-**右键粘贴**: 【iTerm2】 → 【Preference】 → 【Pointer】 → 【Bindings】 → 【Right button single click】 → 【Paste from clipboard】
+右键粘贴: 【iTerm2】 → 【Preference】 → 【Pointer】 → 【Bindings】 → 【Right button single click】 → 【Paste from clipboard】
 
-**szrz 支持**:
+lszrz 支持:
 
 1. 安装 `szrz`: `brew install lszrz`
 2. 下载脚本: `git clone https://github.com/xer0x/iterm2-zmodem.git`
@@ -43,7 +43,7 @@ git config -g user.email "hatlonely@gmail.com"
 
 下载地址: <https://code.visualstudio.com/>
 
-**插件**
+插件
 
 - Markdown all in one: markdown 支持，`alt` + `shift` + `F` 格式化表格
 
