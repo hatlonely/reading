@@ -63,6 +63,7 @@ brew install cmake
 brew install automake
 brew install libtool
 brew install wget
+brew install pkg-config
 ```
 
 ### goland
